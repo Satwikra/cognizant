@@ -1,0 +1,27 @@
+package Array;
+import java.util.*;
+
+public class moveallzero {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int arr[]=new int[n];
+        int count=0;
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+        for(int i=0;i<n;i++){
+            if(arr[i]!=0){
+                int temp=arr[i];
+                arr[i]=arr[count];
+                arr[count]=temp;
+                count++;
+
+            }
+        }
+            for(int i=0;i<n;i++){
+                System.out.println(arr[i]+"");
+            }
+        }
+    }
+    
