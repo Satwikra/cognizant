@@ -12,7 +12,6 @@ public class student {
         for(int i=0;i<5;i++){
             marks[i]=sc.nextInt();
             sum+=marks[i];
-            
         }
     }
 }

@@ -31,3 +31,23 @@ public class duplicat {
         sc.close();
     }
 }
+// import java.util.*;
+
+// class Main {
+//     public static void main(String[] args) {
+
+//         String s = "programming";
+
+//         HashSet<Character> set = new HashSet<>();
+//         StringBuilder result = new StringBuilder();
+
+//         for(char ch : s.toCharArray()) {
+
+//             if(set.add(ch)) {
+//                 result.append(ch);
+//             }
+//         }
+
+//         System.out.println(result);
+//     }
+// }

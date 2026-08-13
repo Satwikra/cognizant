@@ -25,3 +25,4 @@ public class longestSequence {
         System.out.println(longest+"");
     }
 }
+
