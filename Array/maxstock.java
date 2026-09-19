@@ -12,7 +12,7 @@ class Main{
 
         for(int i=1;i<n;i++){
             int price=s.charAt(i)-'0';
-
+            
             maxProfit=Math.max(maxProfit,price-minPrice);
             minPrice=Math.min(minPrice,price);
         }
